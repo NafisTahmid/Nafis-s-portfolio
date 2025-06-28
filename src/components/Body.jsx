@@ -1,11 +1,11 @@
 import React from "react";
-import Mridul from "../assets/images/Mridul.jpg";
-import cinemate from "../assets/images/cinemate-nafis.png";
-import lifestyleLanding from "../assets/images/landing-page-one.PNG";
-import ecommerceOne from "../assets/images/e-commerce-landing-page.PNG";
-import barazLanding from "../assets/images/e-commerce-two.PNG";
-import figmaOne from "../assets/images/figma-one.PNG";
-import webAppick from "../assets/images/webappick.PNG";
+import mridul from "/images/mridul.jpg";
+import cinemate from "/images/cinemate-nafis.PNG";
+import lifestyleLanding from "/images/landing-page-one.PNG";
+import ecommerceOne from "/images/e-commerce-landing-page.PNG";
+import barazLanding from "/images/e-commerce-two.PNG";
+import figmaOne from "/images/figma-one.PNG";
+import webAppick from "/images/webappick.PNG";
 const Body = () => {
   return (
     <div className="container">
@@ -30,7 +30,7 @@ const Body = () => {
           </button>
         </div>
         <div className="half-width">
-          <img className="img-top" src={Mridul} alt="" />
+          <img className="img-top" src={mridul} alt="" />
         </div>
       </div>
 
