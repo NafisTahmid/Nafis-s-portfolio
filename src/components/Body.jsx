@@ -41,16 +41,7 @@ const Body = () => {
           all alone. It's only a drop in the ocean compared to the entire list.
           Interested to see some more? Visit my work page.
         </p>
-        <p
-          style={{
-            fontSize: "24px",
-            color: "rgb(220, 90, 90)",
-            lineHeight: "auto",
-            letterSpacing: "none",
-          }}
-        >
-          Movies/Fashion landing pages
-        </p>
+       
         <div className="line">
           <div className="half-width mt-5">
             <a
@@ -73,16 +64,7 @@ const Body = () => {
             </p>
           </div>
         </div>
-        <p
-          style={{
-            fontSize: "24px",
-            color: "rgb(220, 90, 90)",
-            lineHeight: "auto",
-            letterSpacing: "none",
-          }}
-        >
-          E-commerce landing pages
-        </p>
+       
         <div className="line mt-5">
           <div className="half-width mt-5">
             <a
@@ -107,16 +89,7 @@ const Body = () => {
             </a>
           </div>
         </div>
-        <p
-          style={{
-            fontSize: "24px",
-            color: "rgb(220, 90, 90)",
-            lineHeight: "auto",
-            letterSpacing: "none",
-          }}
-        >
-          Figma design conversion
-        </p>
+        
         <div className="line mt-5">
           <div className="half-width mt-5">
             <a
