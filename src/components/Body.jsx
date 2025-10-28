@@ -4,6 +4,7 @@ import cinemate from "/images/cinemate-nafis.PNG";
 import lifestyleLanding from "/images/landing-page-one.PNG";
 import ecommerceOne from "/images/e-commerce-landing-page.PNG";
 import barazLanding from "/images/e-commerce-two.PNG";
+import instagramClone from "/images/instagram-clone-thumbnail.png";
 import figmaOne from "/images/figma-one.PNG";
 import webAppick from "/images/webappick.PNG";
 const Body = () => {
@@ -41,7 +42,7 @@ const Body = () => {
           all alone. It's only a drop in the ocean compared to the entire list.
           Interested to see some more? Visit my work page.
         </p>
-       
+
         <div className="line">
           <div className="half-width mt-5">
             <a
@@ -64,7 +65,7 @@ const Body = () => {
             </p>
           </div>
         </div>
-       
+
         <div className="line mt-5">
           <div className="half-width mt-5">
             <a
@@ -89,7 +90,7 @@ const Body = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="line mt-5">
           <div className="half-width mt-5">
             <a
@@ -116,6 +117,25 @@ const Body = () => {
               </p>
             </a>
           </div>
+        </div>
+      </div>
+      <div className="full-stack-projects">
+        <h2>Full stack projects: </h2>
+        {/* <p>
+          A small gallery of recent landing pages designed by me. I've done them
+          all alone. It's only a drop in the ocean compared to the entire list.
+          Interested to see some more? Visit my work page.
+        </p> */}
+        <div className="half-width mt-5">
+          <a
+            style={{ textDecoration: "none" }}
+            href="https://instagram-clone-six-khaki.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="img-project" src={instagramClone} alt="" />
+            <p className="mt-3">A partial clone on Instagram </p>
+          </a>
         </div>
       </div>
 
