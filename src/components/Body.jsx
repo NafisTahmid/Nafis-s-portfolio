@@ -119,23 +119,20 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="full-stack-projects">
+      <div id="full-stack-projects">
         <h2>Full stack projects: </h2>
-        {/* <p>
-          A small gallery of recent landing pages designed by me. I've done them
-          all alone. It's only a drop in the ocean compared to the entire list.
-          Interested to see some more? Visit my work page.
-        </p> */}
-        <div className="half-width mt-5">
-          <a
-            style={{ textDecoration: "none" }}
-            href="https://instagram-clone-six-khaki.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="img-project" src={instagramClone} alt="" />
-            <p className="mt-3">A partial clone on Instagram </p>
-          </a>
+        <div className="line mt-5">
+          <div className="half-width mt-5">
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://instagram-clone-six-khaki.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="img-project" src={instagramClone} alt="" />
+              <p className="mt-3">A partial clone on Instagram </p>
+            </a>
+          </div>
         </div>
       </div>
 
