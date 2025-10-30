@@ -130,7 +130,7 @@ const Body = () => {
               rel="noreferrer"
             >
               <img className="img-project" src={instagramClone} alt="" />
-              <p className="mt-3">A partial clone on Instagram </p>
+              <p className="mt-3">A partial clone of Instagram </p>
             </a>
           </div>
         </div>
